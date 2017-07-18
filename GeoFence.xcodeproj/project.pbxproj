@@ -13,6 +13,8 @@
 		0A9D97F31D583E580099BCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D97F11D583E580099BCF3 /* Main.storyboard */; };
 		0A9D97F51D583E580099BCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D97F41D583E580099BCF3 /* Assets.xcassets */; };
 		0A9D97F81D583E580099BCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D97F61D583E580099BCF3 /* LaunchScreen.storyboard */; };
+		0A9D98001D5840350099BCF3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9D97FF1D5840350099BCF3 /* MapKit.framework */; };
+		0A9D98021D5C41940099BCF3 /* track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D98011D5C41940099BCF3 /* track.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0A9D97F41D583E580099BCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9D97F71D583E580099BCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A9D97F91D583E580099BCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9D97FF1D5840350099BCF3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0A9D98011D5C41940099BCF3 /* track.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = track.gpx; path = ../Desktop/track.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9D98001D5840350099BCF3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 		0A9D97DC1D583E580099BCF3 = {
 			isa = PBXGroup;
 			children = (
+				0A9D98011D5C41940099BCF3 /* track.gpx */,
+				0A9D97FF1D5840350099BCF3 /* MapKit.framework */,
 				0A9D97E71D583E580099BCF3 /* GeoFence */,
 				0A9D97E61D583E580099BCF3 /* Products */,
 			);
@@ -140,6 +147,7 @@
 				0A9D97F81D583E580099BCF3 /* LaunchScreen.storyboard in Resources */,
 				0A9D97F51D583E580099BCF3 /* Assets.xcassets in Resources */,
 				0A9D97F31D583E580099BCF3 /* Main.storyboard in Resources */,
+				0A9D98021D5C41940099BCF3 /* track.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
